@@ -4,7 +4,7 @@ namespace Omure\ScoutAdvancedMeilisearch;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Scout\EngineManager;
-use MeiliSearch\Client;
+use Meilisearch\Client;
 use Omure\ScoutAdvancedMeilisearch\Engines\CollectionMeiliSearchTestEngine;
 use Omure\ScoutAdvancedMeilisearch\Engines\MeiliSearchExtendedEngine;
 use Omure\ScoutAdvancedMeilisearch\Facades\MeiliSearch\MeiliSearchService;
